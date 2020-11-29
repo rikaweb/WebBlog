@@ -15,7 +15,7 @@ export default function PostPreview({
 
     return (
         <>
-            <div className="bg-gray-200">
+            <div className="bg-grey-200">
 
                 <div className="container w-full max-w-6xl mx-auto px-2 py-8">
                     <div className="flex flex-wrap -mx-2">
