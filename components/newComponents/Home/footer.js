@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="w-full mx-auto flex flex-wrap items-center">
           <div className="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
             <a className="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="#">
-              👻 <span className="text-base text-gray-200">Ghostwind CSS</span>
+              <span className="text-base text-gray-200">Blog Page</span>
             </a>
           </div>
           <div className="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
