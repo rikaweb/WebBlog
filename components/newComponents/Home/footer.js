@@ -16,16 +16,16 @@ export default function Footer() {
           <div className="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
             <ul className="list-reset flex justify-center flex-1 md:flex-none items-center">
               <li>
-                <a className="inline-block py-2 px-3 text-white no-underline" href="#">Active</a>
+                <a className="inline-block py-2 px-3 text-white no-underline" href="https://rikaweb.com/">Contact</a>
               </li>
               <li>
-                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="#">link</a>
+                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="https://www.linkedin.com/company/rikaweb/">linkedIn</a>
               </li>
               <li>
-                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="#">link</a>
+                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="https://rikaweb.com/">Website</a>
               </li>
               <li>
-                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="#">link</a>
+                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="https://www.linkedin.com/company/rikaweb/people/">Our Team</a>
               </li>
             </ul>
           </div>

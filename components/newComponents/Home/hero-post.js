@@ -11,6 +11,7 @@ export default function HeroPost({
   author,
   slug,
 }) {
+  console.log('l')
   return (
     <>
       {/* <section>
@@ -52,7 +53,7 @@ export default function HeroPost({
 
             <div className="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
               <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-                <p className="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">{author.name} </p>
+                <p className="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">{author.name}</p>
                 <div className="w-full font-bold text-xl text-gray-900 px-6">{title}</div>
                 <p className="text-gray-800 font-serif text-base px-6 mb-5">
                   {excerpt}
