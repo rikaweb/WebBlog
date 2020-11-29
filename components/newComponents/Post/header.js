@@ -19,13 +19,13 @@ export default function HeaderPost() {
                                 <button className="inline-block py-2 px-2 text-white no-underline"><Link href='/'>HOME</Link></button>
                             </li>
                             <li className="mr-2">
-                                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="#">LINK</a>
+                                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="headerBlog">Blog</a>
                             </li>
                             <li className="mr-2">
-                                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="#">LINK</a>
+                                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="/headerPost">Posts</a>
                             </li>
                             <li className="mr-2">
-                                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="#">LINK</a>
+                                <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="https://rikaweb.com/">About us</a>
                             </li>
                         </ul>
                     </div>
