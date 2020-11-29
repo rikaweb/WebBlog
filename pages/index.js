@@ -1,3 +1,4 @@
+
 // import Container from '../components/container'
 import HeroPost from '../components/newComponents/Home/hero-post'
 // import Intro from '../components/intro'
@@ -10,6 +11,7 @@ import MoreStories from '../components/newComponents/Home/more-stories'
 export default function Index({ preview, allPosts }) {
   const heroPost = allPosts[0]
   const morePosts = allPosts.slice(1)
+  // console.log(morePosts)
   return (
     <>
       <Layout preview={preview}>

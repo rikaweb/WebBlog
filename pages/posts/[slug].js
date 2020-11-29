@@ -14,8 +14,11 @@ import { CMS_NAME } from '../../lib/constants'
 import Main from '../../components/newComponents/Home/main'
 import NewPostPage from '../../components/newComponents/newPostPage'
 import PostSelected from '../../components/newComponents/Post/postSelected'
+import MoreStoriesPosts from '../../components/newComponents/Post/more-stories'
 
 export default function Post({ post, morePosts, preview }) {
+
+  console.log(morePosts)
 
   const router = useRouter()
 
@@ -31,8 +34,8 @@ export default function Post({ post, morePosts, preview }) {
         date={post.date}
         author={post.author}
       /> */}
-        {post && (
-          <PostSelected 
+      {post && (
+        <PostSelected
           title={post.title}
           coverImage={post.coverImage}
           date={post.date}
@@ -42,9 +45,9 @@ export default function Post({ post, morePosts, preview }) {
           excerpt={post.excerpt}
 
         />
-        )
+      )
       }
-        {/* {router.isFallback ? (
+      {/* {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
             <>
@@ -68,7 +71,21 @@ export default function Post({ post, morePosts, preview }) {
                 <MoreStories content={post.content} />
               )}
             </>
+
+            
           )} */}
+      {/* {router.isFallback ? 
+      (
+        <PostTitle>Loading…</PostTitle>
+      ) : 
+      (
+      <> {morePosts && morePosts.length > 0 && (
+            <MoreStoriesPosts posts={morePosts} />
+      )}
+      </>
+      )} */}
+      <MoreStoriesPosts posts={morePosts} />
+
     </LayoutPost>
   )
 }

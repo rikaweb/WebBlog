@@ -30,13 +30,13 @@ export default function Layout({ preview, children }) {
                                 <div className="flex w-1/2 pl-4 text-sm">
                                     <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
                                         <li className="mr-2">
-                                            <a className="inline-block py-2 px-2 text-white no-underline hover:underline" href="/headerBlog">BLOG</a>
+                                            <a className="inline-block py-2 px-2 text-white no-underline hover:underline" href="/">HOME</a>
                                         </li>
                                         <li className="mr-2">
                                             <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-2" href="/headerPost">POSTS</a>
                                         </li>
                                         <li className="mr-2">
-                                            <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-2" href="https://www.linkedin.com/company/rikaweb/people/">OUR TEAM</a>
+                                            <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-2" href="/headerBlog">BLOG</a>
                                         </li>
                                         <li className="mr-2">
                                             <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-2" href="https://rikaweb.com/">CONTACT US</a>
