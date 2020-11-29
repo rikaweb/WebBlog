@@ -32,7 +32,7 @@ export default function PostPreview({
                                         </div>
                                         <div className="flex items-center justify-between inset-x-0 bottom-0 p-6">
                                             <img src={newAuthorImage} className="w-8 h-8 rounded-full mr-4" alt="No Image" />
-                                            <p className="text-gray-600 text-xs md:text-sm">{newDate}</p>
+                                            <p className="text-gray-600 text-xs md:text-sm"><DateComponent dateString={newDate} /></p>
                                         </div>
                                     </a>
                                 </Link>

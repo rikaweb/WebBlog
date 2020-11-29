@@ -21,8 +21,8 @@ export default function PostPreview({
                     <div className="flex flex-wrap -mx-2">
                         <div className="w-full md:w-1/3 px-2 pb-12">
                             <div className="h-full bg-white rounded overflow-hidden shadow-md hover:shadow-lg relative smooth">
-                                <Link as={`/posts/${newSlug}`} href="/posts/[newSlug]">
-                                    <a href="{`/posts/${newSlug}`}" className="no-underline hover:no-underline">
+                                <Link as={`/posts/${newSlug}`} href="/posts/[slug]">
+                                    <a href="#" className="no-underline hover:no-underline">
                                         <img src={newCoverImage} className="h-48 w-full rounded-t shadow-lg" />
                                         <div className="p-6 h-auto md:h-48">
                                             <p className="text-gray-600 text-xs md:text-sm">{newTitle}</p>
@@ -32,7 +32,7 @@ export default function PostPreview({
                                         </div>
                                         <div className="flex items-center justify-between inset-x-0 bottom-0 p-6">
                                             <img src={newAuthorImage} className="w-8 h-8 rounded-full mr-4" alt="No Image" />
-                                            <p className="text-gray-600 text-xs md:text-sm">{newDate}</p>
+                                            <p className="text-gray-600 text-xs md:text-sm"><DateComponent dateString={newDate} /></p>
                                         </div>
                                     </a>
                                 </Link>
