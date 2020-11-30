@@ -40,7 +40,7 @@ export default function Post({ post, morePosts, preview }) {
           coverImage={post.coverImage}
           date={post.date}
           author={post.author}
-          content={post.content}
+          
           content={post.content}
           excerpt={post.excerpt}
 
