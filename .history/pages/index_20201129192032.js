@@ -1,5 +1,6 @@
 
 import HeroPost from '../components/newComponents/Home/hero-post'
+// import Intro from '../components/intro'
 import Layout from '../components/newComponents/Home/layout'
 import { getAllPostsForHome } from '../lib/api'
 import Head from 'next/head'

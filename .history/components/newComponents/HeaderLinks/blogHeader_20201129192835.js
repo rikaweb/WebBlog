@@ -203,4 +203,4 @@ const HeaderBlog = () => {
     );
 }
 
-export default HeaderBlog;
+export default BlogHeader;

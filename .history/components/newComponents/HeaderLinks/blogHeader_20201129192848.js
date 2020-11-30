@@ -1,5 +1,5 @@
 
-const HeaderBlog = () => {
+const Blog = () => {
     return (
 
         <div className="bg-white font-family-karla">
@@ -203,4 +203,4 @@ const HeaderBlog = () => {
     );
 }
 
-export default HeaderBlog;
+export default BlogHeader;

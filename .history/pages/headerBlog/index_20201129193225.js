@@ -4,7 +4,7 @@ import HeaderBlog from '../../components/newComponents/HeaderLinks/blogHeader';
 const headerBlogIndex = () => {
     return (
 
-        <HeaderBlog/>
+        <HeaderBlo g>
             )
             }
 

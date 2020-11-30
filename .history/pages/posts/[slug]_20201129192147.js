@@ -74,7 +74,7 @@ export default function Post({ post, morePosts, preview }) {
 
             
           )} */}
-      {router.isFallback ? 
+      {/* {router.isFallback ? 
       (
         <PostTitle>Loading…</PostTitle>
       ) : 
@@ -83,7 +83,7 @@ export default function Post({ post, morePosts, preview }) {
             <MoreStoriesPosts posts={morePosts} />
       )}
       </>
-      )}
+      )} */}
       {/* <MoreStoriesPosts posts={morePosts} /> */}
 
     </LayoutPost>

@@ -2,10 +2,10 @@ import React from 'react';
 import HeaderBlog from '../../components/newComponents/HeaderLinks/blogHeader';
 
 const headerBlogIndex = () => {
-    return (
+    return(
 
-        <HeaderBlog/>
-            )
-            }
+        <HeaderBlog>
+    )
+)
 
 export default headerBlogIndex
